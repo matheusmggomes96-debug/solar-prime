@@ -41,7 +41,7 @@ export const FAQ: React.FC = () => {
 
         <div className="space-y-4">
           {questions.map((item, index) => (
-            <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
+            <div key={index} className="border border-gray-200 border-t-4 border-t-primary rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
               <button
                 className="w-full flex justify-between items-center p-5 text-left bg-gray-50 hover:bg-gray-100 transition-colors focus:outline-none"
                 onClick={() => toggle(index)}
